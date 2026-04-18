@@ -1,0 +1,18 @@
+# ── ROCm PyTorch — MUST install from the AMD wheel index, NOT PyPI ──────────
+# pip install --pre torch==2.9.1 --index-url https://download.pytorch.org/whl/rocm7.1
+#
+# The plain "torch>=2.9.0" line below is intentionally left for pip's
+# dependency resolver (it won't re-download torch if already installed from
+# the ROCm index).  Always install torch FIRST with the command above, then:
+#   pip install -r requirements.txt
+torch>=2.9.0
+
+diffusers>=0.37.0
+transformers>=4.45
+accelerate>=0.33
+
+# Optional but used by the benches in bench/:
+torchao>=0.13,<0.15  # see https://github.com/pytorch/ao/issues/2919 — >=0.15 needs torch 2.11+
+
+# Dev/tests
+pytest>=7.0
